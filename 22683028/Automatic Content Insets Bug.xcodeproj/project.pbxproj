@@ -1,0 +1,308 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		587ADA4D1BA6FE250020CA46 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 587ADA4C1BA6FE250020CA46 /* main.m */; };
+		587ADA501BA6FE250020CA46 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 587ADA4F1BA6FE250020CA46 /* AppDelegate.m */; };
+		587ADA531BA6FE250020CA46 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 587ADA521BA6FE250020CA46 /* ViewController.m */; };
+		587ADA561BA6FE250020CA46 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 587ADA541BA6FE250020CA46 /* Main.storyboard */; };
+		587ADA581BA6FE250020CA46 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 587ADA571BA6FE250020CA46 /* Assets.xcassets */; };
+		587ADA5B1BA6FE250020CA46 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 587ADA591BA6FE250020CA46 /* LaunchScreen.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		587ADA481BA6FE250020CA46 /* Automatic Content Insets Bug.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Automatic Content Insets Bug.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		587ADA4C1BA6FE250020CA46 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = main.m; path = "../Automatic Content Insets Bug/main.m"; sourceTree = "<group>"; };
+		587ADA4E1BA6FE250020CA46 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = "../Automatic Content Insets Bug/AppDelegate.h"; sourceTree = "<group>"; };
+		587ADA4F1BA6FE250020CA46 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = AppDelegate.m; path = "../Automatic Content Insets Bug/AppDelegate.m"; sourceTree = "<group>"; };
+		587ADA511BA6FE250020CA46 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = ViewController.h; path = "../Automatic Content Insets Bug/ViewController.h"; sourceTree = "<group>"; };
+		587ADA521BA6FE250020CA46 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = ViewController.m; path = "../Automatic Content Insets Bug/ViewController.m"; sourceTree = "<group>"; };
+		587ADA551BA6FE250020CA46 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		587ADA571BA6FE250020CA46 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Assets.xcassets; path = "../Automatic Content Insets Bug/Assets.xcassets"; sourceTree = "<group>"; };
+		587ADA5A1BA6FE250020CA46 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		587ADA5C1BA6FE250020CA46 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = Info.plist; path = "../Automatic Content Insets Bug/Info.plist"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		587ADA451BA6FE250020CA46 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		587ADA3F1BA6FE240020CA46 = {
+			isa = PBXGroup;
+			children = (
+				587ADA4A1BA6FE250020CA46 /* Automatic Content Insets Bug */,
+				587ADA491BA6FE250020CA46 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		587ADA491BA6FE250020CA46 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				587ADA481BA6FE250020CA46 /* Automatic Content Insets Bug.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		587ADA4A1BA6FE250020CA46 /* Automatic Content Insets Bug */ = {
+			isa = PBXGroup;
+			children = (
+				587ADA4E1BA6FE250020CA46 /* AppDelegate.h */,
+				587ADA4F1BA6FE250020CA46 /* AppDelegate.m */,
+				587ADA511BA6FE250020CA46 /* ViewController.h */,
+				587ADA521BA6FE250020CA46 /* ViewController.m */,
+				587ADA541BA6FE250020CA46 /* Main.storyboard */,
+				587ADA571BA6FE250020CA46 /* Assets.xcassets */,
+				587ADA591BA6FE250020CA46 /* LaunchScreen.storyboard */,
+				587ADA5C1BA6FE250020CA46 /* Info.plist */,
+				587ADA4B1BA6FE250020CA46 /* Supporting Files */,
+			);
+			path = "Automatic Content Insets Bug";
+			sourceTree = "<group>";
+		};
+		587ADA4B1BA6FE250020CA46 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				587ADA4C1BA6FE250020CA46 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		587ADA471BA6FE250020CA46 /* Automatic Content Insets Bug */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 587ADA5F1BA6FE250020CA46 /* Build configuration list for PBXNativeTarget "Automatic Content Insets Bug" */;
+			buildPhases = (
+				587ADA441BA6FE250020CA46 /* Sources */,
+				587ADA451BA6FE250020CA46 /* Frameworks */,
+				587ADA461BA6FE250020CA46 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Automatic Content Insets Bug";
+			productName = LayoutGuideBug;
+			productReference = 587ADA481BA6FE250020CA46 /* Automatic Content Insets Bug.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		587ADA401BA6FE240020CA46 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0700;
+				ORGANIZATIONNAME = pronebird;
+				TargetAttributes = {
+					587ADA471BA6FE250020CA46 = {
+						CreatedOnToolsVersion = 7.0;
+					};
+				};
+			};
+			buildConfigurationList = 587ADA431BA6FE240020CA46 /* Build configuration list for PBXProject "Automatic Content Insets Bug" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 587ADA3F1BA6FE240020CA46;
+			productRefGroup = 587ADA491BA6FE250020CA46 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				587ADA471BA6FE250020CA46 /* Automatic Content Insets Bug */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		587ADA461BA6FE250020CA46 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				587ADA5B1BA6FE250020CA46 /* LaunchScreen.storyboard in Resources */,
+				587ADA581BA6FE250020CA46 /* Assets.xcassets in Resources */,
+				587ADA561BA6FE250020CA46 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		587ADA441BA6FE250020CA46 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				587ADA531BA6FE250020CA46 /* ViewController.m in Sources */,
+				587ADA501BA6FE250020CA46 /* AppDelegate.m in Sources */,
+				587ADA4D1BA6FE250020CA46 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		587ADA541BA6FE250020CA46 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				587ADA551BA6FE250020CA46 /* Base */,
+			);
+			name = Main.storyboard;
+			path = "../Automatic Content Insets Bug";
+			sourceTree = "<group>";
+		};
+		587ADA591BA6FE250020CA46 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				587ADA5A1BA6FE250020CA46 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			path = "../Automatic Content Insets Bug";
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		587ADA5D1BA6FE250020CA46 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		587ADA5E1BA6FE250020CA46 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		587ADA601BA6FE250020CA46 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Automatic Content Insets Bug/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = ru.codeispoetry.AutomaticContentInsetsBug;
+				PRODUCT_NAME = "Automatic Content Insets Bug";
+			};
+			name = Debug;
+		};
+		587ADA611BA6FE250020CA46 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Automatic Content Insets Bug/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = ru.codeispoetry.AutomaticContentInsetsBug;
+				PRODUCT_NAME = "Automatic Content Insets Bug";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		587ADA431BA6FE240020CA46 /* Build configuration list for PBXProject "Automatic Content Insets Bug" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				587ADA5D1BA6FE250020CA46 /* Debug */,
+				587ADA5E1BA6FE250020CA46 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		587ADA5F1BA6FE250020CA46 /* Build configuration list for PBXNativeTarget "Automatic Content Insets Bug" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				587ADA601BA6FE250020CA46 /* Debug */,
+				587ADA611BA6FE250020CA46 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 587ADA401BA6FE240020CA46 /* Project object */;
+}
